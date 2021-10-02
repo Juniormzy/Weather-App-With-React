@@ -1,0 +1,30 @@
+body{
+  background-color:#FC4445 ;
+}
+main{
+  position: absolute;
+  top:20%;
+  left: 40%;
+  transform: translate(0,-50%);
+}
+.Search{
+  width: 350px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  padding: 0px 12px;
+}
+.Result{
+  color: white;
+  position: absolute;
+
+}
+.date,.location,.Weather-type,.degree{
+  font-size: 40PX;
+  text-align: center;
+  margin-bottom: 20px;
+  
+}
+.location{
+  margin-top: 30px;
+}
